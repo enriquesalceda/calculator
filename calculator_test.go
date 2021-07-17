@@ -69,6 +69,7 @@ func TestDivide(t *testing.T) {
 	}{
 		{a: 9, b: 3, want: 3, errExpected: false},
 		{a: 9, b: 0, want: 1, errExpected: true},
+		{a: 1, b: 2, want: 0.5, errExpected: false},
 	}
 
 	for _, tc := range tcs {
